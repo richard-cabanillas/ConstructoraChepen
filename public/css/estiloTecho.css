@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+#titulos p
+{
+    font-size:3em;
+    color: black;
+}
+
+#techoPropio p{
+    color: black;
+    font-size: 18px;
+}
+
+
+
+
+.requisitos p
+{
+    color: black;
+    font-size:28px;
+    font-family: 'Oswald', sans-serif;
+
+}
+#listas ul{
+    font-size: 20px;
+}
+
+#requerimientos{
+    margin-top: 50px;
+}
+
+
+/*acordion*/
+.accordion {
+    width: 650px;
+
+    color: black;
+    background-color: white;
+    /* padding: 45px 45px; */
+  }
+
+  .accordion .contenedor {
+    position: relative;
+    margin: 10px 10px;
+
+  }
+
+  .accordion .label {
+    position: relative;
+    padding: 10px 0;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+  }
+
+  .accordion .label::before {
+    content: '+';
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+  }
+
+  .accordion .content4 {
+    position: relative;
+    background: white;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 600px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+  .accordion hr {
+    width: 100;
+    margin-left: 0;
+    border: 1px solid grey;
+  }
+
+  .accordion .contenedor.active .content4 {
+    margin-top: 20px;
+    height: 500px;
+    padding-left:20px ;
+
+  }
+
+  .accordion .contenedor.active .label::before {
+    content: '-';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    width: 50px;
+    background-color: gold;
+    color: aliceblue;
+  }
+  .accordion .contenedor.active .label{
+    background-color: black;
+    color: white;
+  }
+
+
+
+
+          /* Estilo para el fondo de imagen */
+.bg-image {
+    background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.2)), url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'); /* Reemplaza 'tu-imagen.jpg' con la URL de tu imagen */
+    background-size: cover;
+
+    background-attachment: fixed; /* Fondo fijo */
+    color: white;
+    padding: 100px 0;
+}
+
+/* Estilos para el texto en el encabezado */
+.bg-image h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.bg-image p {
+    background: rgb(0,0,0,0.3);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+/* Estilos para el texto con degradado lineal */
+    .texto-degradado {
+
+background-image: linear-gradient(to right, #fe8c00, #f83600);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+}

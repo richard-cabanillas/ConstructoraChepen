@@ -1,0 +1,132 @@
+
+.hero-section {
+    background-image: url('https://images.unsplash.com/photo-1567954970774-58d6aa6c50dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    padding: 100px 0;
+
+    text-align: center;
+}
+
+.hero-content {
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.custom-button {
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+
+
+    /* Estilo para el fondo de imagen */
+    .bg-image {
+        background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.2)), url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'); /* Reemplaza 'tu-imagen.jpg' con la URL de tu imagen */
+        background-size: cover;
+
+        background-attachment: fixed; /* Fondo fijo */
+        color: white;
+        padding: 100px 0;
+    }
+
+    /* Estilos para el texto en el encabezado */
+    .bg-image h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .bg-image p {
+        background: rgb(0,0,0,0.3);
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+    }
+    /* Estilos para el texto con degradado lineal */
+    .texto-degradado {
+
+        background-image: linear-gradient(to right, #fe8c00, #fbac01);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: #fbac01;
+    }
+
+
+
+
+
+    .container {
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para resaltar el carrusel */
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .carousel-indicators li {
+        background-color: #fdc830; /* Color de fondo del indicador */
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: #fdc830; /* Color de fondo de los controles */
+    }
+    .icon-color {
+        color: #fdc830; /* Color de los iconos */
+    }
+
+
+     /* Estilo para el botón Bootstrap */
+     .custom-button {
+        background-color: #ffb700; /* Cambia el color del botón según tu esquema de colores */
+        color: #fff; /* Color del texto del botón */
+    }
+
+
+
+
+    /* contacto */
+    .btn-mensaje {
+        position: relative;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        box-shadow: rgb(0, 0, 0) 0px 4px 0px 0px;
+        padding: 15px;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        width: 154px;
+        height: 49px;
+        color: #fff;
+        border: none;
+        font-size: 20px;
+        transition: all .3s ease-in-out;
+        z-index: 1;
+        overflow: hidden;
+        }
+
+        .btn-mensaje::before {
+        content: "";
+        background-color: rgb(167, 6, 0);
+        box-shadow: rgb(167, 6, 0) 0px 4px 0px 0px;
+        width: 0;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: width 700ms ease-in-out;
+        display: inline-block;
+        }
+
+        .btn-mensaje:hover::before {
+        width: 100%;
+        }
+
